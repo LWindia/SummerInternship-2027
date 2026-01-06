@@ -30,7 +30,7 @@ export function JazbaaTimeLine() {
      linkedinUrl={student.linkedinUrl}
      studentName={student.studentName}
      role={student.role}
-     companyLogoUrl={student.companyLogoUrl}
+     companyLogoUrl={(student as any).companyLogoUrl}
      profileImage={student.profileImage}
    />
    </div>
@@ -42,7 +42,7 @@ export function JazbaaTimeLine() {
      linkedinUrl={student.linkedinUrl}
      studentName={student.studentName}
      role={student.role}
-     companyLogoUrl={student.companyLogoUrl}
+     companyLogoUrl={(student as any).companyLogoUrl}
      profileImage={student.profileImage}
      />
    </div>
@@ -82,7 +82,7 @@ export function JazbaaTimeLine() {
      linkedinUrl={student.linkedinUrl}
      studentName={student.studentName}
      role={student.role}
-     companyLogoUrl={student.companyLogoUrl}
+     companyLogoUrl={(student as any).companyLogoUrl}
      profileImage={student.profileImage}
    />
    </div>
@@ -94,7 +94,7 @@ export function JazbaaTimeLine() {
      linkedinUrl={student.linkedinUrl}
      studentName={student.studentName}
      role={student.role}
-     companyLogoUrl={student.companyLogoUrl}
+     companyLogoUrl={(student as any).companyLogoUrl}
      profileImage={student.profileImage}
      />
    </div>
@@ -137,7 +137,7 @@ export function JazbaaTimeLine() {
                    linkedinUrl={student.linkedinUrl}
                    studentName={student.studentName}
                    role={student.role}
-                   companyLogoUrl={student.companyLogoUrl}
+                   companyLogoUrl={(student as any).companyLogoUrl}
                    profileImage={student.profileImage}
                  />
                  </div>
@@ -149,7 +149,7 @@ export function JazbaaTimeLine() {
                    linkedinUrl={student.linkedinUrl}
                    studentName={student.studentName}
                    role={student.role}
-                   companyLogoUrl={student.companyLogoUrl}
+                   companyLogoUrl={(student as any).companyLogoUrl}
                    profileImage={student.profileImage}
                    />
                  </div>
@@ -200,7 +200,7 @@ export function JazbaaTimeLine() {
                    linkedinUrl={student.linkedinUrl}
                    studentName={student.studentName}
                    role={student.role}
-                   companyLogoUrl={student.companyLogoUrl}
+                   companyLogoUrl={(student as any).companyLogoUrl}
                    profileImage={student.profileImage}
                  />
                  </div>
@@ -212,7 +212,7 @@ export function JazbaaTimeLine() {
                    linkedinUrl={student.linkedinUrl}
                    studentName={student.studentName}
                    role={student.role}
-                   companyLogoUrl={student.companyLogoUrl}
+                   companyLogoUrl={(student as any).companyLogoUrl}
                    profileImage={student.profileImage}
                    />
                  </div>
@@ -265,7 +265,7 @@ export function JazbaaTimeLine() {
                 linkedinUrl={student.linkedinUrl}
                 studentName={student.studentName}
                 role={student.role}
-                companyLogoUrl={student.companyLogoUrl}
+                companyLogoUrl={(student as any).companyLogoUrl}
                 profileImage={student.profileImage}
               />
               </div>
@@ -277,7 +277,7 @@ export function JazbaaTimeLine() {
                 linkedinUrl={student.linkedinUrl}
                 studentName={student.studentName}
                 role={student.role}
-                companyLogoUrl={student.companyLogoUrl}
+                companyLogoUrl={(student as any).companyLogoUrl}
                 profileImage={student.profileImage}
                 />
               </div>
@@ -331,7 +331,7 @@ export function JazbaaTimeLine() {
      linkedinUrl={student.linkedinUrl}
      studentName={student.studentName}
      role={student.role}
-     companyLogoUrl={student.companyLogoUrl}
+     companyLogoUrl={(student as any).companyLogoUrl}
      profileImage={student.profileImage}
    />
    </div>
@@ -343,7 +343,7 @@ export function JazbaaTimeLine() {
      linkedinUrl={student.linkedinUrl}
      studentName={student.studentName}
      role={student.role}
-     companyLogoUrl={student.companyLogoUrl}
+     companyLogoUrl={(student as any).companyLogoUrl}
      profileImage={student.profileImage}
      />
    </div>
@@ -394,7 +394,7 @@ export function JazbaaTimeLine() {
      linkedinUrl={student.linkedinUrl}
      studentName={student.studentName}
      role={student.role}
-     companyLogoUrl={student.companyLogoUrl}
+     companyLogoUrl={(student as any).companyLogoUrl}
      profileImage={student.profileImage}
    />
    </div>
@@ -406,7 +406,7 @@ export function JazbaaTimeLine() {
      linkedinUrl={student.linkedinUrl}
      studentName={student.studentName}
      role={student.role}
-     companyLogoUrl={student.companyLogoUrl}
+     companyLogoUrl={(student as any).companyLogoUrl}
      profileImage={student.profileImage}
      />
    </div>
@@ -457,7 +457,7 @@ export function JazbaaTimeLine() {
      linkedinUrl={student.linkedinUrl}
      studentName={student.studentName}
      role={student.role}
-     companyLogoUrl={student.companyLogoUrl}
+     companyLogoUrl={(student as any).companyLogoUrl}
      profileImage={student.profileImage}
    />
    </div>
@@ -469,7 +469,7 @@ export function JazbaaTimeLine() {
      linkedinUrl={student.linkedinUrl}
      studentName={student.studentName}
      role={student.role}
-     companyLogoUrl={student.companyLogoUrl}
+     companyLogoUrl={(student as any).companyLogoUrl}
      profileImage={student.profileImage}
      />
    </div>
@@ -520,7 +520,7 @@ export function JazbaaTimeLine() {
                    linkedinUrl={student.linkedinUrl}
                    studentName={student.studentName}
                    role={student.role}
-                   companyLogoUrl={student.companyLogoUrl}
+                   companyLogoUrl={(student as any).companyLogoUrl}
                    profileImage={student.profileImage}
                  />
                  </div>
@@ -532,7 +532,7 @@ export function JazbaaTimeLine() {
                    linkedinUrl={student.linkedinUrl}
                    studentName={student.studentName}
                    role={student.role}
-                   companyLogoUrl={student.companyLogoUrl}
+                   companyLogoUrl={(student as any).companyLogoUrl}
                    profileImage={student.profileImage}
                    />
                  </div>

@@ -8,7 +8,7 @@ interface StudentProfileCardProps {
   linkedinUrl: string;
   studentName: string;
   role: string;
-  companyLogoUrl: string;
+  companyLogoUrl?: string;
   profileImage: string;
 }
 
