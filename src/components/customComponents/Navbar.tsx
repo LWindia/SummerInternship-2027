@@ -8,6 +8,9 @@ import LOGO from "../../../public/assets/logo2.webp";
 import { usePathname, useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link'; // Import Link from next/link
+import { projectPages } from "./Projects/projectPagesData";
+
+const COURSE_PATHS = new Set(projectPages.map((p) => `/${p.slug}`));
 
 // Navigation Items
 const NAV_ITEMS = [
@@ -57,6 +60,8 @@ const Navbar: React.FC = () => {
   };
 
   const { buttonText } = getRouteConfig(pathname);
+  // Course pages render their own navbar (CourseNavbar), so hide the site navbar there.
+  const hiddenOnThisRoute = COURSE_PATHS.has(pathname);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -97,6 +102,8 @@ const Navbar: React.FC = () => {
   //   router.push('/application-form');
   //   closeMobileMenu();
   // };
+
+  if (hiddenOnThisRoute) return null;
 
   return (
     <header

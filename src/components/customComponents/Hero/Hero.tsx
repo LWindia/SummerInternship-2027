@@ -67,7 +67,7 @@ const Hero = () => {
 {/* start right section */}
 
 <div className="w-full h-full">
-  <img src="/assets/Hero/HeroImage.png" className="w-full h-96"/>
+  <img src="/assets/summer2027.jpeg" className="w-full h-96"/>
 </div>
 
 {/* end right section  */}
@@ -87,7 +87,7 @@ const Hero = () => {
               TENTATIVE START DATES
             </span>
             <span className="font-bold text-xs text-white mt-1">
-              May 2026 / June 2026 / July 2026
+              May 2027 / June 2027 / July 2027
             </span>
             <Badge variant="outline" className="text-[#ff0000] border-red-200 text-[10px] mt-2 w-fit">
               Limited seats

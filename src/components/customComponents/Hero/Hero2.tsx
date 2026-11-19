@@ -100,7 +100,7 @@ const Hero2 = () => {
     <div className="h-full mx-auto w-full">
       <div className="hidden md:flex lg:flex w-full">
         <div className="w-2/3">
-          <img className="w-full h-full object-cover" src="/assets/Hero/hero-section.jpg" alt="Hero" />
+          <img className="w-full h-full object-cover" src="/assets/summer2027.jpeg" alt="Hero" />
         </div>
 
         <div className="w-1/3 flex items-center justify-center pr-8">
@@ -206,7 +206,7 @@ const Hero2 = () => {
 
       <div className="grid grid-row-2 md:hidden lg:hidden sm:block">
         <div className="mb-2">
-          <img src="/assets/Hero/hero-section.jpg" alt="Hero" />
+          <img src="/assets/summer2027.jpeg" alt="Hero" />
         </div>
       </div>
 
@@ -224,7 +224,7 @@ const Hero2 = () => {
                     TENTATIVE START DATES
                   </span>
                   <span className="font-bold text-xs text-white mt-1">
-                    May 2026 / June 2026 / July 2026
+                    May 2027 / June 2027 / July 2027
                   </span>
                   <Badge variant="outline" className="text-[#ff0000] border-red-200 text-[10px] mt-2 w-fit">
                     Limited seats

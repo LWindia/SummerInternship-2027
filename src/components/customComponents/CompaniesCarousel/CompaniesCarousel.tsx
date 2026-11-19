@@ -87,7 +87,7 @@ export function LeftRightAlumniCarousel() {
   );
 }
 
-const companiesRow1 = [
+export const companiesRow1 = [
   { image: Google.src },
   { image: BigBasket.src },
   { image: Microsoft.src },
@@ -108,7 +108,7 @@ const companiesRow1 = [
   { image: JPMorgan.src },
 ];
 
-const companiesRow2 = [
+export const companiesRow2 = [
   { image: Accenture.src },
   { image: Capgemini.src },
   { image: Nykaa.src },

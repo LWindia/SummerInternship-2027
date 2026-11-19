@@ -65,6 +65,18 @@ const config: Config = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		keyframes: {
+  			float: {
+  				'0%, 100%': { transform: 'translateY(0)' },
+  				'50%': { transform: 'translateY(-14px)' }
+  			},
+  			glow: {
+  				'0%, 100%': { opacity: '0.5', transform: 'scale(1)' },
+  				'50%': { opacity: '0.9', transform: 'scale(1.15)' }
+  			},
+  			marquee: {
+  				from: { transform: 'translateX(0)' },
+  				to: { transform: 'translateX(-50%)' }
+  			},
   			'accordion-down': {
   				from: {
   					height: '0'
@@ -83,6 +95,9 @@ const config: Config = {
   			}
   		},
   		animation: {
+  			float: 'float 6s ease-in-out infinite',
+  			glow: 'glow 5s ease-in-out infinite',
+  			marquee: 'marquee 30s linear infinite',
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out'
   		}

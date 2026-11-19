@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Download } from 'lucide-react';
@@ -19,6 +20,7 @@ interface CourseCardProps {
   originalPrice?: string;
   paymentLink: string;
   brochurePdfUrl: string;
+  slug: string;
 }
 
 export default function CourseCard({
@@ -28,6 +30,7 @@ export default function CourseCard({
   originalPrice,
   paymentLink,
   brochurePdfUrl,
+  slug,
 }: CourseCardProps) {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
@@ -46,7 +49,7 @@ export default function CourseCard({
         </div>
         
         <CardContent className="p-6 flex flex-col flex-grow">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">{title}</h3>
+          <h3 className="text-xl font-bold text-gray-900 mb-4"><Link href={`/${slug}`} className="hover:text-red-600">{title}</Link></h3>
           
           <div className="mt-auto space-y-4">
             {/* Pricing */}
@@ -71,6 +74,10 @@ export default function CourseCard({
                 Pay Now
               </Button>
               
+              <Button asChild variant="secondary" className="w-full">
+                <Link href={`/${slug}`}>View Details</Link>
+              </Button>
+
               <Button
                 variant="outline"
                 className="w-full border-red-600 text-red-600 hover:bg-red-50"

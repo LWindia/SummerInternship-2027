@@ -37,6 +37,7 @@ export default function GitiProjects(): JSX.Element {
               originalPrice={course.originalPrice}
               paymentLink={course.paymentLink}
               brochurePdfUrl={course.brochurePdfUrl}
+              slug={course.slug}
             />
           ))}
         </div>
